@@ -34,7 +34,7 @@ let gameMap = {'P1': 0, 'P2': 0}
 rl.question('Introduce una secuencia de puntos. \n\
 (Puedes introducirla en el siguiente formato: \
 P1,P1,P2,P2,P1,P2,P1,P1)\nIndicando el orden en\
- el que gana el punto cada jugador, pulsa Enter si eliges la opción de ejemplo. ', (userInput) => {
+ el que gana el punto cada jugador, pulsa Enter si eliges la opción de ejemplo:', (userInput) => {
 
     if (userInput == ''){
         game(['P1', 'P1', 'P2', 'P2', 'P1', 'P2', 'P1', 'P1'])
